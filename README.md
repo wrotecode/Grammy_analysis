@@ -1,4 +1,4 @@
-# 🏆 The Grammy Effect — 1959–2026
+#  The Grammy Effect — 1959–2026
 
 > **65 years of music's most coveted night, decoded through data.**
 
@@ -22,35 +22,35 @@ An end-to-end data analysis and visualization project exploring every Grammy Awa
 
 ---
 
-## 🔑 Key Findings
+##  Key Findings
 
 | # | Insight |
-|---|---------|
-| 👑 | **Adele reigns supreme** — 5 Big Four wins (2009–2017), more than Sinatra, U2, or Taylor Swift |
-| 📈 | **2000s & 2010s produced the most winners** — 50 each, driven by category expansion |
-| ⚡ | **Song of the Year is growing** — recent ties reflect streaming's impact on what counts as a "hit" |
-| 🌱 | **Best New Artist launches careers** — Billie Eilish, Adele, and Norah Jones all started here |
-| 🌍 | **Genre diversity is rising** — the 2020s already span Latin, R&B, and Pop winners |
-| 🔁 | **Repeat winners are rare** — 80% of artists won only once (55 of 256 won multiple times) |
+
+ **Adele reigns supreme** — 5 Big Four wins (2009–2017), more than Sinatra, U2, or Taylor Swift |
+ **2000s & 2010s produced the most winners** — 50 each, driven by category expansion |
+ **Song of the Year is growing** — recent ties reflect streaming's impact on what counts as a "hit" |
+ **Best New Artist launches careers** — Billie Eilish, Adele, and Norah Jones all started here |
+ **Genre diversity is rising** — the 2020s already span Latin, R&B, and Pop winners |
+ **Repeat winners are rare** — 80% of artists won only once (55 of 256 won multiple times) |
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 grammy_project/
-├── grammy_analysis.py          # Static chart generation (matplotlib/seaborn)
-├── grammy_dashboard.py         # Interactive Dash/Plotly dashboard
-├── grammy.html                 # Standalone HTML presentation (Chart.js)
-├── FINDINGS.md                 # Detailed findings document
+├── grammy_analysis.py         
+├── grammy_dashboard.py         
+├── grammy.html                 
+├── FINDINGS.md                
 │
-├── Grammy_Awards_Winners_*.csv       # Full winners dataset (311 rows)
-├── Grammy_Big_Four_Awards_*.csv      # Big Four awards only (279 rows)
-├── Grammy_Top_Artists_*.csv          # Top artists ranked by wins
-├── Grammy_Winners_By_Decade_*.csv    # Winners aggregated by decade
-├── Grammy_Awards_Report_*.xlsx       # Consolidated Excel report
+├── Grammy_Awards_Winners_*.csv       
+├── Grammy_Big_Four_Awards_*.csv     
+├── Grammy_Top_Artists_*.csv          
+├── Grammy_Winners_By_Decade_*.csv    
+├── Grammy_Awards_Report_*.xlsx       
 │
-├── charts/                     # Generated PNG visualizations
+├── charts/                     
 │   ├── 01_top_artists.png
 │   ├── 02_winners_by_decade.png
 │   ├── 03_big4_over_time.png
@@ -58,7 +58,7 @@ grammy_project/
 │   └── 05_artist_timeline.png
 │
 ├── videos/
-│   └── background.mp4          # Hero section background video
+│   └── background.mp4          
 │
 ├── .gitignore
 └── README.md
@@ -66,9 +66,9 @@ grammy_project/
 
 ---
 
-## 📊 Datasets
+##  Datasets
 
-All data was scraped from **Wikipedia's Grammy Awards pages** and collected on **2026-02-08**.
+
 
 | File | Rows | Description |
 |------|------|-------------|
@@ -81,7 +81,7 @@ All data was scraped from **Wikipedia's Grammy Awards pages** and collected on *
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -113,16 +113,11 @@ Outputs 5 high-resolution PNGs to the `charts/` folder.
 python grammy_dashboard.py
 ```
 
-Opens a Dash app at **http://127.0.0.1:8050** with:
-- Top artists bar chart
-- Decade stacked bar chart
-- Big Four line chart
-- Era distribution donut chart
-- Era dropdown filter for dynamic updates
+
 
 ### View the Standalone Presentation
 
-Open `grammy.html` in any modern browser — no server needed. Features:
+Open `grammy.html` in any modern browser Features:
 - Background video hero section
 - Scroll-triggered animations
 - Chart.js interactive charts
@@ -150,15 +145,3 @@ Open `grammy.html` in any modern browser — no server needed. Features:
 4. **Era Distribution** — Pie/donut chart of wins across music eras
 5. **Artist Win Timeline** — Scatter plot showing when top artists claimed their wins
 
----
-
-## 📝 License
-
-This project is for educational and portfolio purposes. Grammy Award data is sourced from publicly available Wikipedia articles.
-
----
-
-## 🙏 Acknowledgments
-
-- **Data Source:** [Grammy Awards — Wikipedia](https://en.wikipedia.org/wiki/Grammy_Award)
-- Built with Python, Chart.js & raw curiosity
