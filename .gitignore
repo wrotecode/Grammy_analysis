@@ -1,0 +1,37 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python test cache
+.pytest_cache/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+
+# Large or generated assets — keep out of git
+videos/
