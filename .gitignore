@@ -33,5 +33,5 @@ Thumbs.db
 # Node
 node_modules/
 
-# Large or generated assets — keep out of git
-videos/
+# Vercel
+.vercel
